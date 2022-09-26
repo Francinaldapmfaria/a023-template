@@ -2,3 +2,70 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    height: 50px;
+    align-items: center;
+    border: 1px solid darkgrey;
+    background-color: orange;
+}
+
+
+
+main{
+    background-color: cadetblue;
+    flex-grow: 3;
+}
+
+footer{
+    background-color: dodgerblue;
+    flex-grow:  1;
+
+}
+#magenta{
+    background-color: magenta;
+    width: 700px;
+
+}
+
+#verde{
+    background-color: green;
+    flex-grow: 1;
+    
+
+}
+
+#roxo{
+    background-color: rgb(54, 10, 96);
+    width: 700px;
+
+}
+
+#central{
+    border: 5px solid yellow;
+    display: flex;
+    width: 99vw;
+    height: 90vh;
+}
+
+#section-imagens{
+    display:flex ;
+    gap: 100px;
+    flex-wrap: wrap;
+    /* justify-content: space-around; exemplo */
+
+}
+figure{
+    border:  1px solid black;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 16px;
+}
